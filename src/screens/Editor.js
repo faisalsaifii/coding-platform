@@ -19,8 +19,8 @@ function Editor(props) {
     }
 
     return (
-        <div>
-            <div>
+        <div className='editor-container'>
+            <div className='editor-title'>
                 {displayName}
                 <button>
                     O/C
